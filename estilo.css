@@ -7,7 +7,7 @@
 
 
 .navegador{
-background-color:black;
+background-image: linear-gradient(to bottom, grey, black);
 list-style-type: none;
 font-weight: bold;
 text-align: center;
@@ -221,6 +221,8 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .imageninicio{
     width: 15rem;
     height: auto;
+    
+
 }
 
 .grid-tienda{
