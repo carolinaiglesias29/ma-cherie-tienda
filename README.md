@@ -1,2 +1,2 @@
 #Repositorio github 
-Proyecto final de corder. Primer prueba de repositorio en github
+Proyecto final de corder. SEGUNDA PRE ENTREGA TRABAJO FINAL

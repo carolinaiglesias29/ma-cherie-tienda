@@ -56,7 +56,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 .anim:hover{
     transform: scale(1.05);
-    color: blueviolet;
+    color: greenyellow;
 }
 
 
@@ -121,6 +121,9 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 .img-logo{
     width: 15rem;
+    
+    
+
 
 }
 
@@ -230,6 +233,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .imageninicio{
     width: 15rem;
     height: auto;
+    border-radius: 10px;
     
 
 }
@@ -244,4 +248,11 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     .img-tienda{
        width: 300px;
     }
+}
+
+.botontienda{
+    padding: 60px;
+    align-items: center;
+ 
+   
 }

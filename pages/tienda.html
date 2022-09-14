@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MA CHERIE TIENDA</title>
     <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../estilo.css">
 
     <!-- google fonts -->
@@ -18,11 +20,11 @@
     <header>
         <nav class="navegador">
           <ul class="secciones">
-            <li><a class="home" href="../index.html">HOME</a></li>
-            <li><a class="quienes-somos" href="./quienessomos.html">QUIENES SOMOS</a></li>
-            <li><a class="info-importante" href="./informacionimportante.html">INFORMACION IMPORTANTE</a></li>
-            <li><a class="tienda" href="#">TIENDA</a></li>
-            <li><a class="contacto" href="./contacto.html">CONTACTO</a></li>
+            <li><a class="home anim" href="../index.html">HOME</a></li>
+            <li><a class="quienes-somos anim" href="./quienessomos.html">QUIENES SOMOS</a></li>
+            <li><a class="info-importante anim" href="./informacionimportante.html">INFORMACION IMPORTANTE</a></li>
+            <li><a class="tienda anim" href="#">TIENDA</a></li>
+            <li><a class="contacto anim" href="./contacto.html">CONTACTO</a></li>
            
           </ul>
         </nav>
@@ -30,17 +32,21 @@
     <!-- fin del encabezado -->
 
 
-    <!-- inciio del contenido principal -->
+    <!-- inicio del contenido principal -->
     <main>
         <section class="grid-tienda">
             <div>
                 <a class="img-logo" href="#">
-                    <img src="../assets/images/logo solo ma cherie sin aromas.png" alt="logo" width="300px">   
+                    <img src="../assets/images/logo solo ma cherie sin aromas.png" class="rounded mx-auto d-block" alt="logo" width="300px">   
                 </a>
                 <h1 class="slogan">Fashion has no gender</h1>
             </div>
+
+            <div class="botontienda" >
+                <button class="btn btn-dark">IR A LA TIENDA</button>
+            </div>
             
-          <div class="conjunto-fotos-tienda-1">
+          <!-- <div class="conjunto-fotos-tienda-1">
             <img class="img-tienda" src="../assets/images/01.jpeg" alt="" width="150px">
            <img class="img-tienda" src="../assets/images/001.jpeg" alt="" width="150px">
            <img class="img-tienda" src="../assets/images/0001.jpeg" alt="" width="150px">
@@ -49,10 +55,48 @@
             <img class="img-tienda" src="../assets/images/0000001.jpeg" alt="" width="150px">
             <img class="img-tienda" src="../assets/images/00000001.jpeg" alt="" width="150px">
             <img class="img-tienda" src="../assets/images/000000001.jpeg" alt="" width="150px">
+          </div> -->
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/images/01.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/001.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/0001.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/00001.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/000001.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/0000001.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/00000001.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/000000001.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
                    
 
         </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
     </main>
     <!-- fin del contenido principal -->
 
@@ -60,9 +104,9 @@
     <!-- comienzo de footer -->
     <footer>
         <ul class="redes">
-            <li><img src="../assets/images/facebook.png" alt="FB" width="50px"></li>
-            <li><img src="../assets/images/instagram (1).png" alt="IG" width="50px"></li>
-            <li><img src="../assets/images/whatsapp.png" alt="WS" width="50px"></li>
+            <li><img class="redesic" src="../assets/images/facebook.png" alt="FB" width="50px"></li>
+            <li><img class="redesic" src="../assets/images/instagram (1).png" alt="IG" width="50px"></li>
+            <li><img class="redesic" src="../assets/images/whatsapp.png" alt="WS" width="50px"></li>
         </ul>
 
         <p class="derechos">2022- MA CHERIE TIENDA™ TODOS LOS DERECHOS RESERVADOS</p>
