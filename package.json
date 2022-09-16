@@ -1,0 +1,22 @@
+{
+  "name": "macherietienda",
+  "version": "1.0.0",
+  "description": "proyectocoder",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss  ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolinaiglesias29/ma-cherie-tienda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolinaiglesias29/ma-cherie-tienda/issues"
+  },
+  "homepage": "https://github.com/carolinaiglesias29/ma-cherie-tienda#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

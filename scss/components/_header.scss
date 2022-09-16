@@ -1,0 +1,53 @@
+.navegador{
+    background-image: linear-gradient(to bottom, grey, black);
+    list-style-type: none;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    
+    
+    .secciones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type: none;
+        font-weight: bold;
+        gap: 0.5rem;
+    }
+    
+    
+    
+    .home{
+        color:  white
+    }   
+    
+    .quienes-somos{
+        color: white
+    }
+    
+    .info-importante{
+        color:white
+    }
+    
+    .tienda{
+        color:white
+    }
+    
+    .contacto{
+        color: white
+        
+        
+    }
+
+    .anim:hover{
+        transform: scale(1.05);
+        color: orangered
+    }
+
+    &:hover{
+        color: $primary
+    }
+    
