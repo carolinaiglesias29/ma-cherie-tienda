@@ -24,6 +24,8 @@
     width: 15rem;
     height: auto;
     border-radius: 10px;
+
+    @include tamanos(5rem, 3rem);
     
 
 }
@@ -88,12 +90,7 @@
 
 
 .compra-minima{
-    justify-content: center;
-    text-align: center;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    margin: 70px 60px;
+    @extend .envios;
 
 }
 

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+
+Sitemap: https://github.com/carolinaiglesias29/ma-cherie-tienda/sitemaps.xml

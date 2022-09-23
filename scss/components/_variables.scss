@@ -1,1 +1,11 @@
 $primary: greenyellow
+
+
+
+// mixin
+
+@mixin tamanos($ancho, $alto) {
+
+    width: $ancho;
+    height: $alto;
+}
